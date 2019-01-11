@@ -4,15 +4,15 @@ Repo for practicing developer workflow
 
 ## Git Workflow
 
-| Branch     | Purpose                    |
-|------------|----------------------------|
-| master     | release branch             |
-| dev        | development staging branch |
-| dev_<name> | developer branch for WIP   |
+| Branch   | Purpose                    |
+|----------|----------------------------|
+| master   | release branch             |
+| dev      | development staging branch |
+| dev_NAME | developer branch for WIP   |
 
 `master` is the trunk branch.
 
-`dev_<name>` is the leaf branch.
+`dev_NAME` is the leaf branch.
 
 'Merge Update' - from trunk branch to leaf branch
 
