@@ -4,8 +4,11 @@ Repo for practicing developer workflow
 
 ## Cheatsheet
 
+
+|--------------------------------|----------------------|
 | `git branch -r`                | list remote branches |
 | `git checkout -B <new_branch>` | create branch        |
+|--------------------------------|----------------------|
 
 ## References
 
