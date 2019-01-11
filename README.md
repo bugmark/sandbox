@@ -2,13 +2,41 @@
 
 Repo for practicing developer workflow
 
+## Git Workflow
+
+| Branch     | Purpose                    |
+|------------|----------------------------|
+| master     | release branch             |
+| dev        | development staging branch |
+| dev_<name> | developer branch for WIP   |
+
+`master` is the trunk branch.
+
+`dev_<name>` is the leaf branch.
+
+'Merge Update' - from trunk branch to leaf branch
+
+    $ git checkout <leaf_branch>
+    $ git merge <trunk_branch>
+
+'Merge Commit' - from leaf branch to trunk
+
+    $ git checkout <trunk_branch>
+    $ git merge --no-ff <leaf_branch>
+
+Submit pull requests to the `dev` branch!
+
 ## Cheatsheet
 
-
-| Command                        | Description          |
-|--------------------------------|----------------------|
-| `git branch -r`                | list remote branches |
-| `git checkout -B <new_branch>` | create branch        |
+| Description               | Command                                 |
+|---------------------------|-----------------------------------------|
+| show status               | `git status`                            |
+| create branch             | `git checkout -B <new_branch>`          |
+| list remote branches      | `git branch -r`                         |
+| push new branch to remote | `git push -u origin <new_branch>`       |
+| fetch remote branch       | `git fetch origin <new_branch>`         |
+| delete local branch       | `git branch -D <branchname>`            |
+| delete remote branch      | `git push origin --delete <branchname>` |
 
 ## References
 
@@ -17,6 +45,7 @@ Repo for practicing developer workflow
 - [Git Best Practices][a1]
 - [GitHub Pull-Request][a2]
 - [GitHub Code-Review][a3]
+- [Git Cop][a4]
 
 ### Team Branch/Merge Strategy
 
@@ -34,6 +63,7 @@ Repo for practicing developer workflow
 [a1]: https://sethrobertson.github.io/GitBestPractices
 [a2]: https://help.github.com/articles/about-pull-requests/
 [a3]: https://help.github.com/articles/about-pull-request-reviews/
+[a4]: https://github.com/bkuhlmann/git-cop
 
 [b1]: http://nvie.com/posts/a-successful-git-branching-model/
 [b2]: https://github.com/petervanderdoes/gitflow-avh
