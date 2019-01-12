@@ -2,6 +2,18 @@
 
 Repo for practicing developer workflow
 
+## Prerequisites
+
+- Install Git
+- Get a GitHub account
+- [Add your SSH Key][ghk] to your GitHub account (to eliminate the need for passwords...)
+
+Note: everything here was tested in Ubuntu 18.04 and will probably work on Mac.
+Setup a [VM][vvm] if necessary.
+
+[ghk]: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+[vvm]: https://github.com/andyl/VVM
+
 ## Git Workflow
 
 | Branch   | Purpose                    |
