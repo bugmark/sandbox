@@ -1,7 +1,9 @@
 # sandbox
 
-Repo for practicing developer workflow.  Beginners welcome.  If you want help,
-[post an issue][iss] or reach out to one of our [contributors][con].
+Repo for practicing developer workflow.  Beginners welcome!
+
+If you want help, [post an issue][iss] or reach out to one of our
+[contributors][con].
 
 [iss]: https://github.com/bugmark/sandbox/issues
 [con]: https://github.com/bugmark/sandbox/graphs/contributors
