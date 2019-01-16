@@ -1,6 +1,25 @@
 # sandbox
 
-Repo for practicing developer workflow
+Repo for practicing developer workflow.  Beginners welcome!
+
+If you want help, [post an issue][iss] or reach out to one of our
+[contributors][con].
+
+[iss]: https://github.com/bugmark/sandbox/issues
+[con]: https://github.com/bugmark/sandbox/graphs/contributors
+
+
+## Prerequisites
+
+- Install Git
+- Get a GitHub account
+- [Add your SSH Key][ghk] to your GitHub account (to eliminate the need for passwords...)
+
+Note: everything here was tested in Ubuntu 18.04 and will probably work on Mac.
+Setup a [VM][vvm] if necessary.
+
+[ghk]: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+[vvm]: https://github.com/andyl/VVM
 
 ## Git Workflow
 
