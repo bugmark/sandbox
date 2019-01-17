@@ -14,6 +14,7 @@ If you want help, [post an issue][iss] or reach out to one of our
 - Install Git
 - Get a GitHub account
 - [Add your SSH Key][ghk] to your GitHub account (to eliminate the need for passwords...)
+- Copy ~/.gitconfig_user_template to ~/.gitconfig_user and add your PA Token
 
 Note: everything here was tested in Ubuntu 18.04 and will probably work on Mac.
 Setup a [VM][vvm] if necessary.
