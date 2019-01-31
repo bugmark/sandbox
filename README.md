@@ -58,6 +58,14 @@ Submit pull requests to the `dev` branch!
 | delete local branch       | `git branch -D <branchname>`            |
 | delete remote branch      | `git push origin --delete <branchname>` |
 
+## GUI Client
+
+GUI clients are useful to help visualize and reorganize git repos.
+
+We like [GitKraken][gk], a cross-platform GUI client.
+
+[gk]: https://www.gitkraken.com
+
 ## References
 
 ### Git Resources
