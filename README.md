@@ -62,9 +62,7 @@ Submit pull requests to the `dev` branch!
 
 GUI clients are useful to help visualize and reorganize git repos.
 
-We like [GitKraken][gk], a cross-platform GUI client.
-
-[gk]: https://www.gitkraken.com
+Find a list of GUI clients [here](https://git-scm.com/downloads/guis).
 
 ## References
 
