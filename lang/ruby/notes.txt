@@ -1,0 +1,10 @@
+Editor Operations
+
+- [x] file explorer
+- [x] fuzzy file finding
+- [x] mru (most recently used) finder
+- [x] split windows and tabs
+- [x] jump to definition
+- [x] running a terminal and repl
+- [x] source / test navigation
+- [x] snippets
