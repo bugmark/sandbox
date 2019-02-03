@@ -1,11 +1,15 @@
 #!/usr/bin/env ruby
 
-require_relative "../lib/rtest"
+require_relative '../lib/rtest'
 
 puts Rtest::Zoom.new.name
 
 puts Rtest::Klas2.new.alt_name
 
 puts Rtest::Klas2.new.name
+
+puts Rtest::Klas2.new.alt_name
+
+puts Rtest::Klas2.new.alt_name
 
 puts Rtest::Klas2.new.alt_name

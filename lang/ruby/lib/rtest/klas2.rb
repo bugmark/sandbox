@@ -1,14 +1,15 @@
-require_relative "./zoom"
+require_relative './zoom'
 
 class Rtest
+  # test class
   class Klas2
     def name
-      "klas2"
+      'klas2'
     end
 
     def alt_name
-      gg = Rtest::Zoom.new
-      gg.name
+      gg_tango = Rtest::Zoom.new
+      gg_tango.name
     end
   end
 end
